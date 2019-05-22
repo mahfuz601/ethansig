@@ -1,0 +1,142 @@
+
+
+/* Main CSS Start*/
+
+.container{	
+	width: 1470px;
+}
+.Heading p{
+	text-align: center;
+	font-size: 38px;
+	font-family: DejaVu Sans;
+	font-weight: 900;
+	margin-left: -51px;
+}
+.Main-section{
+	width: 64%;
+	display: block;
+	margin: 0 auto;
+	border: 3px solid #d8d8d8;
+    height: 241px;
+    border-radius: 15px;
+}
+.left-section{
+	float: left;
+}
+.left-section img{
+	width: 87%;
+    margin-left: -11px;
+    margin-top: -17px;
+}
+.right-section{
+	float: left;
+}
+.right-section .Mssngr{
+	width: 60%;
+    margin-left: 41px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.Mssngr:hover{
+	cursor: pointer;
+    box-shadow: 3px 3px 8px 3px #bcbef5;
+    transition: .4s;
+}
+.second-one .pro-pic{
+	width: 11%;
+    padding-left: 36px;
+    float: left;
+}
+.second-one p{
+	display: inline;
+	padding-left: 15px;
+}
+.name{
+	font-size: 28px;
+	line-height: 74px;
+}
+.not{
+	font-size: 28px;
+}
+
+/* Main CSS End*/
+
+
+/* ----------------Responsive CSS Start-----------*/
+
+/* Mobile Device*/
+@media (min-width: 280px) and (max-width: 767.98px){
+	.Heading p {
+	    font-size: 68px;
+    	margin-left: -135px;
+	}
+	.Main-section{
+	    width: 120%;
+	    margin-left: 58px;
+	    height: 336px;
+	}
+	.left-section img {
+	    width: 120% !important;
+	    margin-left: -13px;
+	    margin-top: -21px;
+	}
+
+	.right-section .Mssngr {
+	    width: 88% !important;
+	    margin-left: 171px !important;
+	    margin-bottom: 11px;
+	}
+	.second-one .pro-pic {
+	    width: 19% !important;
+	    padding-left: 165px !important;
+	}
+	.name {
+	    font-size: 46px;
+	    line-height: 134px;
+	}
+	.not {
+	    font-size: 33px;
+	    line-height: 0px;
+	}
+}
+
+
+
+
+/* Tablet Device*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+.left-section img {
+    width: 95% !important;
+	}
+.right-section .Mssngr {
+    width: 68%;
+    margin-left: 54px;
+    border-radius: 9px;
+	}
+.second-one .pro-pic {
+    width: 13%;
+    padding-left: 45px;
+    float: left;
+	}
+.name {
+    font-size: 30px;
+    line-height: 74px;
+	}
+}
+
+
+/* Large Device*/
+
+@media (min-width: 1500.01px) {
+	.Heading p {
+	    margin-left: 15%;
+	}
+.Main-section {
+    width: 41%;
+    float: left;
+    margin-left: 16%;
+	}
+}
+
